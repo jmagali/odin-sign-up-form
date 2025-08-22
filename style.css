@@ -1,3 +1,7 @@
+:root {
+    --gray: #f2f2f2;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -16,7 +20,8 @@ body {
 
 .banner {
     height: 100vh;
-    width: clamp(500px, 25vw, 25vw);
+    width: 25vw;
+    min-width: 200px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -57,7 +62,7 @@ body {
 
 .logo-banner > h1 {
     color: white;
-    font-size: 1.1em;
+    font-size: clamp(1rem, 2vw, 2.5rem);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
@@ -81,7 +86,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: var(--gray);
 }
 
 .sign-up > p {
@@ -97,6 +102,7 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 2em;
+    flex-wrap: wrap;
 }
 
 .required {
@@ -108,13 +114,16 @@ form {
 .input-container {
     display: flex;
     flex-direction: column;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .outer-container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin: 0.5em;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 0.5em;
 }
 
 label {
@@ -124,4 +133,22 @@ label {
 input {
     height: 1.5em;
     width: 20em;
+    border-radius: 0.3em;
+    padding: 0.8em;
+    border: 1px solid black;
+}
+
+input:focus {
+    border: 1px solid blue;
+    height: 2em;
+    outline: none;
+    background-color: var(--gray);
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
 }
