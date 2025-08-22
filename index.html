@@ -32,35 +32,36 @@
 
         <form action="" method="post" id="sign-up">
             <h2>Let's do this!</h2>
+            <p class="required">Notice: Fields marked with "*" are required!</p>
 
             <div class="input-container">
-                <label for="f-name">FIRST NAME</label>
+                <label for="f-name">FIRST NAME *</label>
                 <input id="f-name" type="text" required name="f-name">
             </div>
 
             <div class="input-container">
-                <label for="l-name">LAST NAME</label>
+                <label for="l-name">LAST NAME *</label>
                 <input id="l-name" type="text" required name="l-name">
             </div>
 
             <div class="input-container">
-                <label for="mail">EMAIL</label>
+                <label for="mail">EMAIL *</label>
                 <input id="mail" type="email" required name="mail">
             </div>
 
             <div class="input-container">
                 <label for="phone">PHONE NUMBER</label>
-                <input id="phone" type="tel" required name="phone">
+                <input id="phone" type="tel" name="phone">
             </div>
 
             <div class="input-container">
-                <label for="password">PASSWORD</label>
+                <label for="password">PASSWORD *</label>
                 <input id="password" type="password" required name="password" minlength="8">
             </div>
 
             
             <div class="input-container">
-                <label for="c-password">CONFIRM PASSWORD</label>
+                <label for="c-password">CONFIRM PASSWORD *</label>
                 <input id="c-password" type="password" required name="c-password" minlength="8">
             </div>
         </form>
