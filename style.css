@@ -92,3 +92,10 @@ form {
     height: 20em;
     box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.4);
 }
+
+.required {
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    color: red;
+}
+}
