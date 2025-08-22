@@ -18,6 +18,8 @@ body {
     height: 100vh;
     width: clamp(500px, 25vw, 25vw);
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .banner::after {
@@ -57,4 +59,17 @@ body {
     color: white;
     font-size: 1.5em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.credit {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: clamp(1%, 5px, 5px);
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
