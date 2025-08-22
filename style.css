@@ -85,3 +85,10 @@ a {
     margin-left: 1em;
     margin-bottom: 2em;
 }
+
+form {
+    background-color: white;
+    padding: 2em;
+    height: 20em;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.4);
+}
