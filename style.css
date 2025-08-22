@@ -88,6 +88,7 @@ a {
     justify-content: center;
     background-color: var(--gray);
     align-items: center;
+    width: 100%;
 }
 
 .sign-up > p {
