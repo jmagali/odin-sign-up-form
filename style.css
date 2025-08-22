@@ -89,7 +89,7 @@ a {
 form {
     background-color: white;
     padding: 2em;
-    height: 20em;
+    height: max-content;
     box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -98,4 +98,8 @@ form {
     margin-bottom: 1em;
     color: red;
 }
+
+.input-container {
+    display: flex;
+    flex-direction: column;
 }
