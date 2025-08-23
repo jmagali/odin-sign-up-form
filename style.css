@@ -90,6 +90,7 @@ a {
     background-color: var(--gray);
     align-items: center;
     width: 100%;
+    padding-top: 1em;
 }
 
 .sign-up > p {
