@@ -2,7 +2,9 @@
 
 <p id="description">A basic sign-up page built with HTML and CSS that asks users to enter their first name, last name, email address, phone number, and password. This page is for a fictional Nujabes Foundation, which wouldn’t realistically require a sign-up page, but here we go anyway. <em>This project is part of The Odin Project's <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form" target="_blank" rel="noopener noreferrer">Intermediate HTML and CSS Course!</a></em></p>
 
-<a href="https://jmagali.github.io/odin-sign-up-form/">View Demo</a>
+<p align="center">
+    <a href="https://jmagali.github.io/odin-sign-up-form/">View Demo</a>
+</p>
 
 ## Preview
 <div align="center">
