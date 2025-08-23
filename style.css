@@ -129,6 +129,7 @@ form {
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 0.5em;
+    gap: 0.5em;
 }
 
 label {
